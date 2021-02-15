@@ -1,0 +1,170 @@
+body{
+    font: 15px/1.5 Arial,Helvetica,sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Global */
+
+.common {
+    width: 80%;
+    margin:auto; 
+    overflow: hidden;
+}
+
+.ul{
+
+	margin:0;
+	padding:0;
+}
+
+
+
+
+
+/* hEADER */
+
+header{
+    background-color: #29495d;
+    color: #fff;
+    padding-top: 10px;
+    min-height: 70px;
+    border-bottom: #e8491d 5px solid;
+}
+
+header #title {
+    float: left;
+}
+
+header .span_1, header .current a{
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px;
+}
+
+header a{
+    COLOR: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header #span_1 {
+    float:left
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+
+header a:hover {
+    color: #cccccc;
+    font-weight: bold;
+}
+
+
+/* Inroduction */
+#Intro {
+    min-height: 400px;
+    background: url('../images/bg4.jpg');
+    text-align: center;
+    color: #000000;
+    background-repeat: no-repeat;
+    
+}
+
+
+#Introduction {
+    padding: 20px;
+    color: #ffffff;
+    background: #35424a;
+    border-top: 5px #e8491d solid;
+}
+
+.span_2 {
+    color:#e8491d;
+}
+
+
+#Introduction h1 {
+    float: left;
+    font-size: 30px;
+}
+
+#Introduction p {
+    float: right;
+    margin-top: 30px;
+    font-size: 20px;
+
+}
+
+#work {
+    margin-top: 20px;
+}
+
+#work  h1, #technology h1{
+    text-align: center;
+    font-size: 20px;
+}
+
+.Box{
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+}
+
+#technology {
+    padding : 40px;
+    color: #ffffff;
+    background: #35424a;
+    font-weight: normal;
+
+
+}
+
+.skills {
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#758283;
+    color:#000000;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+
+.footer{
+	padding: 5px;
+	color:#000000;
+    text-align:center;
+    
+}
+
+#footer {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
