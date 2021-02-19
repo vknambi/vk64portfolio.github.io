@@ -83,7 +83,7 @@ header a:hover {
 }
 
 .about-section {
-  background: url(./images/image2.jpg) no-repeat right;
+  background: url(../images/image2.jpg) no-repeat right;
   margin-left: 50px;
   background-size: 20%;
   overflow: hidden;
