@@ -420,7 +420,7 @@ textarea {
     padding-top: 10px;
   }
 
-  #preview {
-    width: 280px;
+  .preview {
+    width: 240px;
   }
 }
